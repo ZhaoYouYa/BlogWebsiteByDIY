@@ -10,6 +10,9 @@ main.cpp
 controller/doc_controller.h
 controller/doc_controller.cpp
 
+fileops/file_interface.hpp
+
+
 )
 target_link_libraries(dd_background PRIVATE ${DROGON_LIBRARIES})
 

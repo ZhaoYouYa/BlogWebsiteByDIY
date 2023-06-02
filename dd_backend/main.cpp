@@ -3,9 +3,6 @@
 #include "controller/doc_controller.h"
 using namespace drogon;
 int main(int, char**) {
-
-
-    
     auto c_doc = std::make_shared<DocController>();
 
      app()
